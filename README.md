@@ -1,6 +1,7 @@
-# This case uses UV python package manager
 
-## Instructions to install and use UV to run these scripts (linux and mac instructions)
+
+# Instructions to install and use UV to run these scripts
+## (linux and mac)
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
