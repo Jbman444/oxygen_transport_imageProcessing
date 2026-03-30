@@ -1,4 +1,4 @@
-## README - commiting to Github instructions
+## README - Commiting to Github instructions
 
 ### First check what is being tracked
 git status
