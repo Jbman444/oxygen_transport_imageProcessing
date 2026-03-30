@@ -5,6 +5,11 @@ build/
 dist/
 wheels/
 *.egg-info
+old/
+
+drain_imbib-Stitched_final.tif
+drain_imbib-Stitched_t0.tif
+
 R_75_deltaR_17_5_lambda_5.stl
 # Virtual environments
 .venv
