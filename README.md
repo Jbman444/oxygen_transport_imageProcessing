@@ -4,7 +4,7 @@
 ## (linux and mac)
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
-brew install uv (for mac)
+# brew install uv (for mac)
 ## After you have installed this repo
 
 # Install necessary dependencies to run script
