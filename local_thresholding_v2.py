@@ -1,5 +1,3 @@
-
-
 from skimage import io, filters
 import matplotlib.pyplot as plt
 from pathlib import Path
@@ -16,6 +14,10 @@ input_path = currentDir / filename
 output_dir = currentDir / "threshold_results"
 output_dir.mkdir(exist_ok=True)
 
+# --------------------------------------------------
+# image
+# --------------------------------------------------
+
 # Load grayscale image
 image = io.imread(input_path, as_gray=True)
 
@@ -25,6 +27,11 @@ local_thresh = filters.threshold_local(image, block_size, offset=10)
 
 # Binarize the image
 binary_local = image > local_thresh
+
+# --------------------------------------------------
+# paths
+# --------------------------------------------------
+
 
 # Show results
 fig, ax = plt.subplots(1, 2, figsize=(10, 5))
