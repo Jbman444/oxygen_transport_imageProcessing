@@ -11,4 +11,4 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 
 # Run the script
-uv run python local_thresholding_v2.py
+uv run local_thresholding_v2.py
